@@ -1,0 +1,21 @@
+{
+  "name": "backendcertificacion",
+  "version": "0.0.1",
+  "description": "calculdora de certificación",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "calculadora",
+    "certificación"
+  ],
+  "author": "Leidy Quiñones",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
