@@ -46,7 +46,6 @@ app.post(
             resultado=parseFloat(numero_1)/parseFloat(numero_2);   
 
         }catch(error){
-            //Gestionar el error
             resultado=error;
         }
         
@@ -58,6 +57,6 @@ app.post(
 app.listen(
     3000,
     ()=>{
-      console.log("Servidor ejecutándose en el puerto 3000 con éxito");
+      console.log("El puerto 3000 está listo para usarse");
     }
 );
